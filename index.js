@@ -7,14 +7,14 @@ var button = ToggleButton({
   id: "menu-button",
   label: "Get Password",
   icon: {
-    "16": "./lock.png"
+    "32": "./lock.png"
   },
   onChange: handleChange
 });
 
 var panel = panels.Panel({
   contentURL: self.data.url("panel.html"),
-  contentScriptFile: ["./popup.js","./sjcl.js"],
+  contentScriptFile: ["./panel.js","./sjcl.js"],
   onHide: handleHide
 });
 var getTab = function () {
@@ -39,7 +39,7 @@ function handleHide() {
 }
 
 panel.on('show', function() {
-    var height = 260;
+    var height = 240;
     var width = 332;
   panel.resize(width, height);
 });
