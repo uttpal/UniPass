@@ -1,8 +1,8 @@
 {
-  "title": "Accountless Password Manager",
-  "name": "accountlesspasswordmanager",
+  "title": "OnePass",
+  "name": "onepass",
   "version": "0.0.1",
-  "description": "Accountless Password Manager",
+  "description": "Account-less Password Manager",
   "main": "index.js",
   "author": "Kumar Uttpal",
   "engines": {
@@ -11,6 +11,17 @@
   },
   "license": "MIT",
   "keywords": [
-    "jetpack"
+    "hash",
+    "pass",
+    "password",
+    "password manager",
+    "local password manager",
+    "accountless password manager",
+    "manager",
+    "hash password",
+    "one password",
+    "onepassword",
+    "onepass",
+    "lastpass"
   ]
 }

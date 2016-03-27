@@ -5,7 +5,7 @@ var tabs = require('sdk/tabs');
 
 var button = ToggleButton({
   id: "menu-button",
-  label: "Get Password",
+  label: "OnePass",
   icon: {
     "32": "./lock.png"
   },
