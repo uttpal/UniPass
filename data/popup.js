@@ -35,7 +35,7 @@ keyElement.onclick = function() {
 hashElement.onclick = function() {
     this.select();
     document.execCommand('copy');
-    msgElement.innerHTML = "Password copied!!";
+    msgElement.innerHTML = "Password Copied!!";
 };
 
 
