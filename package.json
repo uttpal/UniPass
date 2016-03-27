@@ -1,0 +1,16 @@
+{
+  "title": "Accountless Password Manager",
+  "name": "accountlesspasswordmanager",
+  "version": "0.0.1",
+  "description": "Accountless Password Manager",
+  "main": "index.js",
+  "author": "Kumar Uttpal",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
