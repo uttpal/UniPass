@@ -4,8 +4,6 @@ var self = require("sdk/self");
 var tabs = require('sdk/tabs');
 
 var button = ToggleButton({
-  width: 632,
-  height: 180,
   id: "menu-button",
   label: "Get Password",
   icon: {
@@ -39,3 +37,9 @@ function handleChange(state) {
 function handleHide() {
   button.state('window', {checked: false});
 }
+
+panel.on('show', function() {
+    var height = 260;
+    var width = 332;
+  panel.resize(width, height);
+});

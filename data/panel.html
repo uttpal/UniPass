@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Hashpass</title>
+    <title>Unipass</title>
     <style type="text/css">
       html {
         margin: 0;
@@ -13,8 +13,9 @@
         padding: 0;
         width: 332px;
         font-family: sans-serif;
-        /*font-size: 0.9em;*/
-        /*color: #333;*/
+        font-size: 0.9em;
+        color: #333;
+        background-color: white;
       }
 
       input {
@@ -22,8 +23,10 @@
         box-sizing: border-box;
         width: 300px;
         height: 40px;
+        margin-right: -14px;
+        overflow: hidden;
         border: 2px solid #ddd;
-        border-radius: 2px;
+        border-radius: 5px;
         padding: 8px 12px;
         margin: 16px;
         outline-style: none;
@@ -33,18 +36,18 @@
       }
 
       input:focus {
-        border-color: #f872ae;
+        border-color: skyblue;
       }
 
       input, p {
         margin: 16px;
       }
 
-      .small-top-margin {
+      .margin-top {
         margin-top: 4px;
       }
 
-      .small-bottom-margin {
+      .margin-bottom {
         margin-bottom: 4px;
       }
 
@@ -55,23 +58,14 @@
       input.disabled {
         font-style: italic;
       }
-
-      .error {
-        color: #c00;
-      }
     </style>
   </head>
   <body>
     <p>Domain: <strong><span id="domain"></span></strong></p>
-    <p class="small-bottom-margin">Key:</p>
-    <input id="key" class="small-top-margin" type="password" />
-    <p class="small-bottom-margin">Hash:</p>
-    <input id="hash" class="small-top-margin" type="text" readonly="true" />
-    <p id="message">&nbsp;</p>
-    <button id="button">Generate</button>
+    <p class="margin-bottom">Key:</p>
+    <input id="key" class="margin-top" type="password" />
+    <p class="margin-bottom">Password:</p>
+    <input id="hash" class="margin-top" type="text" readonly="true" />
+    <p id="message">Enter Your Key!</p>
   </body>
 </html>
-
-    <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="sjcl.js"></script>
-    <script type="text/javascript" src="popup.js"></script>
