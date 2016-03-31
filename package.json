@@ -1,6 +1,6 @@
 {
-  "title": "OnePass",
-  "name": "onepass",
+  "title": "UniPass",
+  "name": "unipass",
   "version": "0.0.1",
   "description": "Account-less Password Manager",
   "main": "index.js",
@@ -22,6 +22,8 @@
     "one password",
     "onepassword",
     "onepass",
+    "unipass",
+    "uni pass",
     "lastpass"
   ]
 }
