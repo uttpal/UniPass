@@ -33,9 +33,6 @@ input {
 input:focus {
   border-color: #3fb0ac;
 }
-.msg {
-  color: #9068be;
-}
 
 input, p {
   margin: 16px;
@@ -55,4 +52,23 @@ input, p {
 
 input.disabled {
   font-style: italic;
+}
+.msg, .domain{
+  all: initial;
+  margin: 16px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 280px;
+  height: 20px;
+  font-size: 1em;
+  border: none;
+  background: transparent;
+  color: #000;
+}
+.domain {
+  margin-top: 12px;
+  font-weight: bold;
+}
+.msg {
+  color: #9068be;
 }
